@@ -1,0 +1,1 @@
+# in de consule heb ik document.body.style.color en bodycolor aangepast
