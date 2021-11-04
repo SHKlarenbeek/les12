@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    color: rgb(22, 85, 79);
+}
+
+.Cheat{
+    border: darkcyan 5px solid;
+    background-color: turquoise;
+    width: 33%;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cmd{
+    border: darkcyan 5px solid;
+    background-color: turquoise;
+    width: 33%;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+}
