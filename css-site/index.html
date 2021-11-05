@@ -10,8 +10,11 @@
         console.log("hello");
         function changeBG(){
             console.log("Klik!")
-            document.body.style.Color = 'lightblue';
+            document.body.style.Color = 'white';
             document.body.style.backgroundColor = 'darkblue';
+        }
+        function changeBACK(){
+            document.body.style.backgroundColor = 'aliceblue';
         }
     </script>
 </head>
@@ -24,7 +27,7 @@
         <p>commit -m "beschrijving" voor github</p>
         <p>push stuurt het naar github</p>
     </div>
-    <div class="cmd">
+    <div class="cmd" onclick="changeBACK()">
         <h2>cmd</h2>
         <p>cd: change directory</p>
         <p>dir geeft de inhoud van de map</p>
